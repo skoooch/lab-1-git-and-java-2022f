@@ -40,6 +40,9 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String chanwant() {
+        return printLabMessage("Hi","Vicky", true, "I'm glad to be here" );
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -59,9 +62,11 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(chanwant());
 
 
     }
+
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
 
