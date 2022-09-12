@@ -49,6 +49,9 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    public static String mongarud() {
+        return printLabMessage("Hello", "mongarud", false, "weewoo");
+    }
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
@@ -60,7 +63,7 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
-
+        System.out.println(mongarud());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
